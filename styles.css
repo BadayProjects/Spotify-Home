@@ -1,13 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
-    color: #fff;
+    
+
+}
+
+body{
+background-color: black;
+    margin: 20px;
+    display: flex;
 }
 
 .container{
+    align-self: flex-start;
+    border-radius: 10px;
+    width: 100%;
+    color: #fff;
     padding-top: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
@@ -24,7 +34,7 @@ img{
 .container h1{
     font-weight: bold;
     font-size: 50px;
-    margin-bottom: -10px;
+    margin-bottom: -5px;
 }
 .container h1:hover{
 text-decoration: underline;
@@ -125,3 +135,43 @@ text-decoration: underline;
     'GRAD' 0,
     'opsz' 24
   }
+
+  
+.left-menu{
+    min-width: 350px;
+    width: 30%;
+    margin-right: 10px;
+}
+
+.left-menu .home-search{
+    color: white;
+    background: #181818;
+    padding: 15px 25px;
+    border-radius: 10px;
+
+}
+.left-menu h3{
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: normal;
+}
+
+.left-bottom{
+    color: white;
+    background: #181818;
+    padding: 15px 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.left-menu-button{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #282828;
+    color: white;
+    border: none;
+    padding: 4px 10px 5px 10px;
+}
