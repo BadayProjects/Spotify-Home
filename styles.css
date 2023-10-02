@@ -8,7 +8,7 @@
 }
 
 body{
-background-color: black;
+background-color: white;
     margin: 20px;
     display: flex;
 }
@@ -32,6 +32,7 @@ img{
 }
 
 .container h1{
+    cursor: pointer;
     font-weight: bold;
     font-size: 50px;
     margin-bottom: -5px;
@@ -45,6 +46,7 @@ text-decoration: underline;
 
 }
 .container p:hover{
+    cursor: pointer;
     text-decoration: underline;
     }
 
@@ -151,6 +153,7 @@ text-decoration: underline;
 
 }
 .left-menu h3{
+    width: max-content;
     cursor: pointer;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -158,6 +161,7 @@ text-decoration: underline;
 }
 
 .left-bottom{
+    cursor:default;
     color: white;
     background: #181818;
     padding: 15px 25px;
